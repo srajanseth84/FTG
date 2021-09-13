@@ -4,9 +4,9 @@ from transformers import pipeline
 st.set_page_config(page_title="Fill the MASK",
                    page_icon="💡")
 
-''' # Fill the MASK'''
+''' # Fill the GAP'''
 st.text("Write something")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/srajanseth84/FTM)")
+st.write("To know more about this app, visit [**GitHub**](https://github.com/srajanseth84/FTG)")
 
 
 @st.cache(allow_output_mutation=True)
