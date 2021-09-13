@@ -2,8 +2,6 @@
 # Fill the GAP
 
 
-Neural Style Transfer is a technique that uses deep learning to compose one image in the style of another image. Have your ever wished you could paint like Picasso or Van Gogh? This is your chance!
-
 ## [To View Deployed Demo](https://neural-style-transf-streamlit.herokuapp.com/)
 ## Demo
 -----
