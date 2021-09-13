@@ -5,7 +5,7 @@ st.set_page_config(page_title="Fill the MASK",
                    page_icon="💡")
 
 ''' # Fill the GAP'''
-st.text("Write something")
+st.write("Write something")
 st.write("To know more about this app, visit [**GitHub**](https://github.com/srajanseth84/FTG)")
 
 
