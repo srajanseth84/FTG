@@ -7,8 +7,11 @@ st.set_page_config(page_title="Fill the GAP",
 
 st.title("Fill the GAP💡")
 st.write("Replace ``_`` with ``[MASK]`` ")
-st.write("Ex: The Air of ``_`` is very fresh. ``-->`` The Air of ``[MASK]`` is very fresh.")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/srajanseth84/FTG)")
+st.write(
+    "Ex: The Air of ``_`` is very fresh. ``-->`` The Air of ``[MASK]`` is very fresh.")
+st.write(
+    "To know more about this app, visit [**GitHub**](https://github.com/srajanseth84/FTG)")
+
 
 @st.cache(allow_output_mutation=True)
 def load_model():
@@ -34,16 +37,18 @@ try:
     with st.spinner("Finding suitable Words"):
         if button and input:
             answers = model(input)
-            i=1
+            i = 1
             for ans in answers:
-                st.write("``Trial``",i,":",ans["sequence"],"``Score``:", str(ans["score"]))
-                i=i+1
+                st.write("``Trial``", i, ":",
+                         ans["sequence"], "``Score``:", str(ans["score"]))
+                i = i+1
 
 except PipelineException:
     st.warning("No **[MASK]** Found in Input Sentence")
 except:
     st.warning("Some **Unexpected** Error happen")
-    st.warning("Please create a **Issue** on [Github](https://github.com/srajanseth84/FTG)")
+    st.warning(
+        "Please create a **Issue** on [Github](https://github.com/srajanseth84/FTG)")
 
 
 st.markdown("Created by **Srajan Seth**")
