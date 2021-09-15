@@ -1,5 +1,7 @@
 # Fill the GAP
 
+**Fill the GAP** is an `End-to-End NLP model` which takes a Sentance and replace `[MASK]` based on context deployed on **Streamlit**
+
 **Model :** **`Bert Base Uncased`**
 
 **Library :** **`🤗 Hugging Face `**
@@ -10,18 +12,17 @@
 
 
 
-## [To View Deployed Demo on Streamlit](https://share.streamlit.io/srajanseth84/all-ml-projects-streamlit/main/app.py)
+## [View Deployed Demo on Streamlit](https://share.streamlit.io/srajanseth84/all-ml-projects-streamlit/main/app.py)
 
 
 
 ## Demo
------
 
 ![](extras/demo.gif.gif)
 
 
 ### A Few Examples
--------------------
+
 * The beautiful ruins of the ancient city of Persepolis (Iran) with the style of Van Gogh (The Starry Night) 
   <img src="images/">
 * The tomb of Cyrus the great in Pasargadae with the style of a Ceramic Kashi from Ispahan 
@@ -32,7 +33,7 @@
 
 
 ## Run Locally
-------
+
 
 * Clone the project
 
@@ -72,13 +73,18 @@
 
 
 ## Dependencies
-----
+
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
 * [Tensorflow-Hub](https://github.com/tensorflow/hub)
 * [Streamlit](https://github.com/streamlit/streamlit)
 * [Numpy](https://github.com/numpy/numpy)
 * [Pillow](https://github.com/python-pillow/Pillow)
 * [Pre-trained Model Used](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2)  
+
+## Tech Stack
+* **Front-End**: [Streamlit](https://github.com/streamlit/streamlit)
+* **Cloud**: [Streamlit Cloud](https://streamlit.io/cloud)
+* **DL-Framework**: [Hugging Face](https://huggingface.co/)
 
 
 
