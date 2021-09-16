@@ -15,7 +15,7 @@
 
 ## Demo
 
-![](extras/demo.gif.gif)
+![](extras/ftg.gif)
 
 
 ### A Few Examples
